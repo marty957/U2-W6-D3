@@ -1,0 +1,5 @@
+@each $key, $value in $colors {
+  .btn-#{$key} {
+    color: $value;
+  }
+}

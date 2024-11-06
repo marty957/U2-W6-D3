@@ -1,0 +1,15 @@
+$colorText: #f4f4f4;
+$bg_hero: #640fc5;
+
+body {
+  color: $colorText;
+}
+
+.hero {
+  background-color: $bg_hero;
+}
+$colors: (
+  blu: #0e6cff,
+  orange: #ff8700,
+  verde: #4caf50,
+);

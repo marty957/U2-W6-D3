@@ -1,0 +1,18 @@
+$fontFamily: Arial, Helvetica, sans-serif;
+$fontSize_1: 5rem;
+$fontSize_2: 1.5rem;
+
+@mixin title_big() {
+  font-family: $fontFamily;
+  font-size: $fontSize_1;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  @include title_big();
+}
+p {
+  font-family: $fontFamily;
+  font-size: $fontSize_2;
+}

@@ -1,0 +1,17 @@
+@for $i from 1 through 6 {
+  .padding-in-#{$i} {
+    padding-inline: $i * 6px;
+  }
+  .padding-bl-#{$i} {
+    padding-block: $i * 8px;
+  }
+  .margin-in-#{$i} {
+    margin-block: $i * 6px;
+  }
+  .margin-bl-#{$i} {
+    margin-inline: $i * 8px;
+  }
+}
+
+a {
+}
