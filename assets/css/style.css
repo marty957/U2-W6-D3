@@ -20,19 +20,16 @@ body nav img {
 body nav a {
   text-decoration: none;
 }
-body main div {
-  width: 100%;
-  display: flex;
-  gap: 20px;
-}
-body main div img {
-  width: 24%;
-}
 
 .hero img {
   width: 140px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.hero div {
+  display: flex;
+  gap: 10px;
 }
 
 body {
@@ -161,4 +158,26 @@ p {
 
 .btn-verde {
   color: #4caf50;
+}
+
+.hero img {
+  border-radius: 20px;
+  box-shadow: 0 10px 10px black;
+  border: 2px solid grey;
+}
+
+.one img {
+  border-radius: 9px;
+  box-shadow: 0 15px 15px black;
+  border: none;
+}
+
+.one {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.one img {
+  width: 20%;
 }/*# sourceMappingURL=style.css.map */

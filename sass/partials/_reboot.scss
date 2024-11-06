@@ -22,18 +22,14 @@ body {
       text-decoration: none;
     }
   }
-  main {
-    div {
-      width: 100%;
-      display: flex;
-      gap: 20px;
-      img {
-        width: 24%;
-      }
-    }
-  }
 }
 .hero img {
   width: 140px;
   object-fit: cover;
+}
+.hero {
+  div {
+    display: flex;
+    gap: 10px;
+  }
 }

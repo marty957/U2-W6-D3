@@ -1,0 +1,26 @@
+@mixin floating($radius: 20px, $shadow: 0 10px 10px black, $bor: 2px solid grey) {
+  border-radius: $radius;
+  box-shadow: $shadow;
+  border: $bor;
+}
+
+.hero img {
+  @include floating();
+}
+.one img {
+  @include floating($radius: 9px, $shadow: 0 15px 15px black, $bor: none);
+}
+
+@mixin grid($num) {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 10px;
+  img {
+    width: $num;
+  }
+}
+
+.one {
+  @include grid(20%);
+}
