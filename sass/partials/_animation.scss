@@ -1,0 +1,27 @@
+@mixin animation($duration, $delay, $end: 0px 10px) {
+  background-color: $colorChanged;
+  transition: background-color $duration $delay;
+  translate: $end;
+  /*
+  animation: moves 1s;
+  @keyframes moves {
+    10% {
+      transform: perspective(150px) translateZ(18px);
+      rotate: 60deg;
+    }
+    20% {
+      transform: perspective(80px) translateZ(25px);
+      rotate: 20deg;
+    }
+  }*/
+}
+
+.hero img {
+  &:hover {
+    @include animation(2s, 100ms);
+  }
+}
+
+.hero:hover {
+  @include animation(2s, 100ms);
+}

@@ -180,4 +180,40 @@ p {
 }
 .one img {
   width: 20%;
+}
+
+.hero img:hover {
+  background-color: #b89dd7;
+  transition: background-color 2s 100ms;
+  translate: 0px 10px;
+  /*
+  animation: moves 1s;
+  @keyframes moves {
+    10% {
+      transform: perspective(150px) translateZ(18px);
+      rotate: 60deg;
+    }
+    20% {
+      transform: perspective(80px) translateZ(25px);
+      rotate: 20deg;
+    }
+  }*/
+}
+
+.hero:hover {
+  background-color: #b89dd7;
+  transition: background-color 2s 100ms;
+  translate: 0px 10px;
+  /*
+  animation: moves 1s;
+  @keyframes moves {
+    10% {
+      transform: perspective(150px) translateZ(18px);
+      rotate: 60deg;
+    }
+    20% {
+      transform: perspective(80px) translateZ(25px);
+      rotate: 20deg;
+    }
+  }*/
 }/*# sourceMappingURL=style.css.map */
